@@ -1,3 +1,4 @@
+Shotoku Map Generator - Flask Application
 import csv
 import io
 from flask import Flask, render_template, request, Response
