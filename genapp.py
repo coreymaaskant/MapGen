@@ -36,7 +36,7 @@ def load_csv_data():
         for row in reader:
             if row:
                 rems.append({
-                    'val': row[0],git config --global user.name "Your Name"
+                    'val': row[0],
                     'label': row[1]
                 })
     return masterlist, rems
